@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project MetadataType="monolithic">
+    <Categories Location="Root">
+        <Category Location="FileClassCategory">
+            <Info DataType="None" Name="Classification" ReadOnly="1" SingleValued="1"/>
+            <Label Location="artifact">
+                <Info Name="Artifact" ReadOnly="READ_ONLY"/>
+            </Label>
+            <Label Location="convenience">
+                <Info Name="Convenience" ReadOnly="READ_ONLY"/>
+            </Label>
+            <Label Location="derived">
+                <Info Name="Derived" ReadOnly="READ_ONLY"/>
+            </Label>
+            <Label Location="design">
+                <Info Name="Design" ReadOnly="READ_ONLY"/>
+            </Label>
+            <Label Location="none">
+                <Info Name="None" ReadOnly="READ_ONLY"/>
+            </Label>
+            <Label Location="other">
+                <Info Name="Other" ReadOnly="READ_ONLY"/>
+            </Label>
+            <Label Location="test">
+                <Info Name="Test" ReadOnly="READ_ONLY"/>
+            </Label>
+        </Category>
+    </Categories>
+    <EntryPoints Location="Root">
+        <EntryPoint Location="151f84d5-8a92-4791-88b7-03f74c2d0f3b">
+            <Info File="projectUtilities/updateReadmeLinks.m" GroupUUID="default" Icon="" Name="Update README Links" Type="Basic" Visible="1"/>
+        </EntryPoint>
+        <EntryPoint Location="3d738b7d-2650-4a61-811b-5b54646fbc1c">
+            <Info File="projectUtilities/openWorkshopGuide.m" GroupUUID="default" Icon="" Name="openWorkshopGuide" Type="StartUp" Visible="0">
+                <Extension Name="StartUpPrev" Value="HEAD"/>
+            </Info>
+        </EntryPoint>
+    </EntryPoints>
+    <Files Location="ALM">
+        <Info DigitalThread_ArtifactTracking="true"/>
+        <DIR_SIGNIFIER Location="1">
+            <Info/>
+        </DIR_SIGNIFIER>
+    </Files>
+    <Files Location="MLTestManagerCoverageSettings">
+        <Info autoOpenCoverage="true" coverageMode="MCDC" isCoverageEnabled="true" isGenCoverageEnabled="false"/>
+        <DIR_SIGNIFIER Location="1">
+            <Info/>
+        </DIR_SIGNIFIER>
+    </Files>
+    <Files Location="Root">
+        <File Location=".gitattributes">
+            <Info/>
+        </File>
+        <File Location=".github">
+            <Info/>
+            <DIR_SIGNIFIER Location="1">
+                <Info/>
+            </DIR_SIGNIFIER>
+            <File Location="workflows">
+                <Info/>
+                <DIR_SIGNIFIER Location="1">
+                    <Info/>
+                </DIR_SIGNIFIER>
+                <File Location="ci.yml">
+                    <Info/>
+                </File>
+            </File>
+        </File>
+        <File Location=".gitignore">
+            <Info/>
+        </File>
+        <File Location="License.txt">
+            <Info/>
+        </File>
+        <File Location="README.md">
+            <Info/>
+        </File>
+        <File Location="SECURITY.md">
+            <Info/>
+        </File>
+        <File Location="WorkshopGuide.m">
+            <Info>
+                <Category UUID="FileClassCategory">
+                    <Label UUID="design"/>
+                </Category>
+            </Info>
+        </File>
+        <File Location="buildfile.m">
+            <Info>
+                <Category UUID="FileClassCategory">
+                    <Label UUID="convenience"/>
+                </Category>
+            </Info>
+        </File>
+        <File Location="codeAdvanced">
+            <Info/>
+            <DIR_SIGNIFIER Location="1">
+                <Info/>
+            </DIR_SIGNIFIER>
+            <File Location="areaOfTriangle.m">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="distanceBetweenPoints.m">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="typeOfTriangle.m">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+        </File>
+        <File Location="codeSimple">
+            <Info/>
+            <DIR_SIGNIFIER Location="1">
+                <Info/>
+            </DIR_SIGNIFIER>
+            <File Location="isLeapYear.m">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="rockPaperScissors.m">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="simpleSort.m">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+        </File>
+        <File Location="helperFunctions">
+            <Info/>
+            <DIR_SIGNIFIER Location="1">
+                <Info/>
+            </DIR_SIGNIFIER>
+            <File Location="mustBeNumDimensionsBetween.m">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="convenience"/>
+                    </Category>
+                </Info>
+            </File>
+        </File>
+        <File Location="projectUtilities">
+            <Info/>
+            <DIR_SIGNIFIER Location="1">
+                <Info/>
+            </DIR_SIGNIFIER>
+            <File Location="enableAdvancedCodeCoverage.m">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="openCodeQualityDashboard.m">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="updateReadmeLinks.m">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="openWorkshopGuide.m">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+        </File>
+        <File Location="tests">
+            <Info/>
+            <DIR_SIGNIFIER Location="1">
+                <Info/>
+            </DIR_SIGNIFIER>
+            <File Location="testIsLeapYear.m">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="test"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="testSimpleSort.m">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="test"/>
+                    </Category>
+                </Info>
+            </File>
+        </File>
+    </Files>
+    <Info Location="ProjectData">
+        <Info Name="Generating-Tests-for-Your-MATLAB-Code-Workshop"/>
+    </Info>
+    <ProjectPath Location="Root">
+        <Reference Location="51b3a057-cf81-438b-a326-e7db137bc5e0">
+            <Info Ref="projectUtilities" Type="Relative"/>
+        </Reference>
+        <Reference Location="931ba488-2e1a-4bab-adf3-616fc4890879">
+            <Info Ref="helperFunctions" Type="Relative"/>
+        </Reference>
+        <Reference Location="9d011824-15ff-47d8-af44-8e5807433ef4">
+            <Info Ref="codeAdvanced" Type="Relative"/>
+        </Reference>
+        <Reference Location="9d9a3835-c20f-4bc6-9fcc-fd956c5ad93f">
+            <Info Ref="tests" Type="Relative"/>
+        </Reference>
+        <Reference Location="c33f83e4-717f-40a5-a3fe-0bbceed788f7">
+            <Info Ref="codeSimple" Type="Relative"/>
+        </Reference>
+        <Reference Location="c49f48b1-a220-41a3-864c-eeedeac7e104">
+            <Info Ref="images" Type="Relative"/>
+        </Reference>
+        <Reference Location="f5f08618-a043-47aa-9a3c-f89d5cc4164b">
+            <Info Ref="" Type="Relative"/>
+        </Reference>
+    </ProjectPath>
+</project>
