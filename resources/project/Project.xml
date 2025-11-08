@@ -213,6 +213,20 @@
                     </Category>
                 </Info>
             </File>
+            <File Location="RockPaperScissorsTest.m">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="test"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="testrockPaperScissors.m">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="test"/>
+                    </Category>
+                </Info>
+            </File>
         </File>
         <File Location="WorkshopGuide.pdf">
             <Info>
